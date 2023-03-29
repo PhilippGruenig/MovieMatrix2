@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "371331139582",
+    "project_id": "movie-matrix-5699b",
+    "storage_bucket": "movie-matrix-5699b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371331139582:android:3e675cc848efb4664562af",
+        "android_client_info": {
+          "package_name": "com.example.moviematrix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "371331139582-2mtrklvlt6grtkln1ek17i04u30mbckj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRIOaWTwotAPTuouRix3tJxBlAXGxIll0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "371331139582-2mtrklvlt6grtkln1ek17i04u30mbckj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371331139582:android:e618e775707f91ce4562af",
+        "android_client_info": {
+          "package_name": "com.example.moviematrix2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "371331139582-pahtqdclhkl9kj751f6uu3cfd7ut430c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.moviematrix2",
+            "certificate_hash": "aefc0379e93492a0f85d8c1b73b546e3eb3bbf9c"
+          }
+        },
+        {
+          "client_id": "371331139582-2mtrklvlt6grtkln1ek17i04u30mbckj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRIOaWTwotAPTuouRix3tJxBlAXGxIll0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "371331139582-2mtrklvlt6grtkln1ek17i04u30mbckj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

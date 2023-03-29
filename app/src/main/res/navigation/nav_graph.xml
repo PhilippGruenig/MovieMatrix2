@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentMap">
+
+    <fragment
+        android:id="@+id/fragmentLogin"
+        android:name="com.example.moviematrix.ui.FragmentLogin"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_fragmentLogin_to_fragmentSignin"
+            app:destination="@id/fragmentSignin" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentSignin"
+        android:name="com.example.moviematrix.ui.FragmentSignin"
+        android:label="FragmentSignin" />
+    <fragment
+        android:id="@+id/fragmentCinema"
+        android:name="com.example.moviematrix.ui.FragmentCinema"
+        android:label="fragment_cinema"
+        tools:layout="@layout/fragment_cinema" >
+        <action
+            android:id="@+id/action_fragmentCinema_to_fragmentMovies"
+            app:destination="@id/fragmentMovies" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentMap"
+        android:name="com.example.moviematrix.ui.FragmentMap"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" >
+        <action
+            android:id="@+id/action_fragmentMap_to_fragmentCinema"
+            app:destination="@id/fragmentCinema" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentMovies"
+        android:name="com.example.moviematrix.ui.FragmentMovies"
+        android:label="fragment_movies"
+        tools:layout="@layout/fragment_movies" >
+        <action
+            android:id="@+id/action_fragmentMovies_to_fragmentMovieDetail"
+            app:destination="@id/fragmentMovieDetail" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentMovieDetail"
+        android:name="com.example.moviematrix.ui.FragmentMovieDetail"
+        android:label="fragment_movie_detail"
+        tools:layout="@layout/fragment_movie_detail" />
+</navigation>
